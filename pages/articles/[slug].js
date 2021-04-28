@@ -34,7 +34,7 @@ export async function getStaticProps({params}) {
 }
 
 export default function Article({article}) {
-    const {image, title, url} = article.fields
+    const {image, title} = article.fields
     return (
         <div>
             <h1>{article.fields.title}</h1>

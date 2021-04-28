@@ -31,10 +31,10 @@ export default function Home({blog}) {
            {blog.map(article => <NavItems key={article.sys.id} article={article}/>)}
           </nav>
 
-          <div>
+          {/* <div>
             {blog.map(article => 
               <HomepageCards key={article.sys.id} article={article}/>)}
-          </div>
+          </div> */}
         </div>
   )
 }

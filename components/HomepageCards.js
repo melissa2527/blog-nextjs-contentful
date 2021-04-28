@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const HomepageCards = ({article}) => {
-    const {title, slug, text, image} = article.fields;
+    const {title, image} = article.fields;
 
     return (
         <div>
